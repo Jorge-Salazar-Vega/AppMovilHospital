@@ -1,0 +1,1066 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "MedicosMovil.Api | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:55185"
+    },
+    {
+      "url": "http://localhost:55186"
+    }
+  ],
+  "paths": {
+    "/api/Auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Medicos": {
+      "get": {
+        "tags": [
+          "Medicos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfListOfMedicoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfListOfMedicoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfListOfMedicoDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Medicos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearMedicoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearMedicoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearMedicoDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Medicos/{id}": {
+      "get": {
+        "tags": [
+          "Medicos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Medicos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarMedicoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarMedicoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarMedicoDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfMedicoDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pacientes": {
+      "get": {
+        "tags": [
+          "Pacientes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfListOfPacienteDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfListOfPacienteDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfListOfPacienteDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Pacientes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearPacienteDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearPacienteDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CrearPacienteDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pacientes/{id}": {
+      "get": {
+        "tags": [
+          "Pacientes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Pacientes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarPacienteDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarPacienteDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActualizarPacienteDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponseOfPacienteDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ActualizarMedicoDto": {
+        "required": [
+          "idEspecialidad",
+          "cedulaProfesional",
+          "nombre",
+          "apellidoPaterno",
+          "telefono"
+        ],
+        "type": "object",
+        "properties": {
+          "idEspecialidad": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "cedulaProfesional": {
+            "maxLength": 20,
+            "type": "string"
+          },
+          "nombre": {
+            "maxLength": 60,
+            "type": "string"
+          },
+          "apellidoPaterno": {
+            "maxLength": 60,
+            "type": "string"
+          },
+          "apellidoMaterno": {
+            "maxLength": 60,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "telefono": {
+            "maxLength": 15,
+            "type": "string"
+          }
+        }
+      },
+      "ActualizarPacienteDto": {
+        "required": [
+          "matricula",
+          "nombre",
+          "apellidoPaterno",
+          "fechaNacimiento",
+          "sexo",
+          "carrera",
+          "semestre"
+        ],
+        "type": "object",
+        "properties": {
+          "matricula": {
+            "maxLength": 15,
+            "type": "string"
+          },
+          "nombre": {
+            "maxLength": 60,
+            "type": "string"
+          },
+          "apellidoPaterno": {
+            "maxLength": 60,
+            "type": "string"
+          },
+          "apellidoMaterno": {
+            "maxLength": 60,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date"
+          },
+          "sexo": {
+            "maxLength": 1,
+            "type": "string"
+          },
+          "tipoSangre": {
+            "maxLength": 3,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "telefono": {
+            "maxLength": 15,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "carrera": {
+            "maxLength": 80,
+            "type": "string"
+          },
+          "semestre": {
+            "maximum": 12,
+            "minimum": 1,
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int16"
+          }
+        }
+      },
+      "ApiResponseOfListOfMedicoDto": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "$ref": "#/components/schemas/MedicoDto"
+            }
+          }
+        }
+      },
+      "ApiResponseOfListOfPacienteDto": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "$ref": "#/components/schemas/PacienteDto"
+            }
+          }
+        }
+      },
+      "ApiResponseOfMedicoDto": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/MedicoDto"
+              }
+            ]
+          }
+        }
+      },
+      "ApiResponseOfPacienteDto": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/PacienteDto"
+              }
+            ]
+          }
+        }
+      },
+      "CrearMedicoDto": {
+        "required": [
+          "correo",
+          "contrasena",
+          "idEspecialidad",
+          "cedulaProfesional",
+          "nombre",
+          "apellidoPaterno",
+          "telefono"
+        ],
+        "type": "object",
+        "properties": {
+          "correo": {
+            "maxLength": 100,
+            "type": "string"
+          },
+          "contrasena": {
+            "minLength": 6,
+            "type": "string"
+          },
+          "idEspecialidad": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "cedulaProfesional": {
+            "maxLength": 20,
+            "type": "string"
+          },
+          "nombre": {
+            "maxLength": 60,
+            "type": "string"
+          },
+          "apellidoPaterno": {
+            "maxLength": 60,
+            "type": "string"
+          },
+          "apellidoMaterno": {
+            "maxLength": 60,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "telefono": {
+            "maxLength": 15,
+            "type": "string"
+          }
+        }
+      },
+      "CrearPacienteDto": {
+        "required": [
+          "matricula",
+          "correo",
+          "contrasena",
+          "nombre",
+          "apellidoPaterno",
+          "fechaNacimiento",
+          "sexo",
+          "carrera",
+          "semestre"
+        ],
+        "type": "object",
+        "properties": {
+          "matricula": {
+            "maxLength": 15,
+            "type": "string"
+          },
+          "correo": {
+            "maxLength": 100,
+            "type": "string"
+          },
+          "contrasena": {
+            "minLength": 6,
+            "type": "string"
+          },
+          "nombre": {
+            "maxLength": 60,
+            "type": "string"
+          },
+          "apellidoPaterno": {
+            "maxLength": 60,
+            "type": "string"
+          },
+          "apellidoMaterno": {
+            "maxLength": 60,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date"
+          },
+          "sexo": {
+            "maxLength": 1,
+            "type": "string"
+          },
+          "tipoSangre": {
+            "maxLength": 3,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "telefono": {
+            "maxLength": 15,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "carrera": {
+            "maxLength": 80,
+            "type": "string"
+          },
+          "semestre": {
+            "maximum": 12,
+            "minimum": 1,
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int16"
+          }
+        }
+      },
+      "DatosMedicoDto": {
+        "required": [
+          "idEspecialidad",
+          "cedulaProfesional",
+          "nombre",
+          "apellidoPaterno",
+          "telefono"
+        ],
+        "type": "object",
+        "properties": {
+          "idEspecialidad": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "cedulaProfesional": {
+            "type": "string"
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "apellidoPaterno": {
+            "type": "string"
+          },
+          "apellidoMaterno": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "telefono": {
+            "type": "string"
+          }
+        }
+      },
+      "DatosPacienteDto": {
+        "required": [
+          "matricula",
+          "nombre",
+          "apellidoPaterno",
+          "fechaNacimiento",
+          "sexo",
+          "carrera"
+        ],
+        "type": "object",
+        "properties": {
+          "matricula": {
+            "type": "string"
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "apellidoPaterno": {
+            "type": "string"
+          },
+          "apellidoMaterno": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date"
+          },
+          "sexo": {
+            "type": "string"
+          },
+          "tipoSangre": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "telefono": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "carrera": {
+            "type": "string"
+          },
+          "semestre": {
+            "maximum": 14,
+            "minimum": 1,
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int16"
+          }
+        }
+      },
+      "LoginDto": {
+        "required": [
+          "correo",
+          "contrasena"
+        ],
+        "type": "object",
+        "properties": {
+          "correo": {
+            "type": "string"
+          },
+          "contrasena": {
+            "type": "string"
+          }
+        }
+      },
+      "MedicoDto": {
+        "type": "object",
+        "properties": {
+          "idMedico": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int64"
+          },
+          "idUsuario": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ],
+            "format": "int64"
+          },
+          "idEspecialidad": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "especialidad": {
+            "type": "string"
+          },
+          "cedulaProfesional": {
+            "type": "string"
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "apellidoPaterno": {
+            "type": "string"
+          },
+          "apellidoMaterno": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "telefono": {
+            "type": "string"
+          },
+          "correo": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "estado": {
+            "type": "string"
+          }
+        }
+      },
+      "PacienteDto": {
+        "type": "object",
+        "properties": {
+          "idPaciente": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int64"
+          },
+          "idUsuario": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "null",
+              "integer",
+              "string"
+            ],
+            "format": "int64"
+          },
+          "matricula": {
+            "type": "string"
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "apellidoPaterno": {
+            "type": "string"
+          },
+          "apellidoMaterno": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date"
+          },
+          "sexo": {
+            "type": "string"
+          },
+          "tipoSangre": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "telefono": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "carrera": {
+            "type": "string"
+          },
+          "semestre": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int16"
+          },
+          "correo": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "estado": {
+            "type": "string"
+          }
+        }
+      },
+      "RegisterDto": {
+        "required": [
+          "correo",
+          "contrasena",
+          "rol"
+        ],
+        "type": "object",
+        "properties": {
+          "correo": {
+            "type": "string"
+          },
+          "contrasena": {
+            "minLength": 6,
+            "type": "string"
+          },
+          "rol": {
+            "$ref": "#/components/schemas/RolUsuario"
+          },
+          "paciente": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/DatosPacienteDto"
+              }
+            ]
+          },
+          "medico": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/components/schemas/DatosMedicoDto"
+              }
+            ]
+          }
+        }
+      },
+      "RolUsuario": {
+        "type": "integer"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Auth"
+    },
+    {
+      "name": "Medicos"
+    },
+    {
+      "name": "Pacientes"
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\repositories\\medicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\repositories\\medicorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\services\\medicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\services\\medicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\models\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\repositories\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\repositories\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\repositories\\especialidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\repositories\\especialidadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|c:\\users\\jorge\\escuelaaaaaaaaa\\proyectomedicosmovil\\medicosmovil.api\\medicosmovil.api.csproj||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F9826F0F-6279-C1E9-78C2-4225F8888AC9}|MedicosMovil.Api\\MedicosMovil.Api.csproj|solutionrelative:medicosmovil.api\\medicosmovil.api.csproj||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\DTOs\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\DTOs\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T14:02:00.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\appsettings.json",
+              "RelativeToolTip": "MedicosMovil.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-01T22:40:34.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicosController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Controllers\\MedicosController.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Controllers\\MedicosController.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Controllers\\MedicosController.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Controllers\\MedicosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T15:35:49.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Controllers\\PacientesController.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Controllers\\PacientesController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowCwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T14:03:27.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Enums.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Models\\Enums.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Enums.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Models\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T15:39:46.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T22:45:21.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Services\\AuthService.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Services\\AuthService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAADwvx8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T22:44:01.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\DTOs\\AuthDtos.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T22:31:54.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Services\\TokenService.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Services\\TokenService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T22:42:31.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Paciente.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Models\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T23:42:17.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Medico.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Medico.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Models\\Medico.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Medico.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Models\\Medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T23:42:28.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Program.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Program.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwFcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T22:40:05.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T13:59:57.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Repositories\\MedicoRepository.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Repositories\\MedicoRepository.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Repositories\\MedicoRepository.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Repositories\\MedicoRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T02:21:12.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicoService.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Services\\MedicoService.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Services\\MedicoService.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Services\\MedicoService.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Services\\MedicoService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAHcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T14:04:29.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Usuario.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T15:54:07.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Data\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Data\\UnitOfWork.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Data\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T02:18:52.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T14:05:58.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Especialidad.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Models\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Models\\Especialidad.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Models\\Especialidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T14:01:27.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PacienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Repositories\\PacienteRepository.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Repositories\\PacienteRepository.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Repositories\\PacienteRepository.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Repositories\\PacienteRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T14:00:05.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EspecialidadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Repositories\\EspecialidadRepository.cs",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\Repositories\\EspecialidadRepository.cs",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\Repositories\\EspecialidadRepository.cs",
+              "RelativeToolTip": "MedicosMovil.Api\\Repositories\\EspecialidadRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T14:08:45.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MedicosMovil.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\MedicosMovil.Api.csproj",
+              "RelativeDocumentMoniker": "MedicosMovil.Api\\MedicosMovil.Api.csproj",
+              "ToolTip": "C:\\Users\\jorge\\Escuelaaaaaaaaa\\ProyectoMedicosMovil\\MedicosMovil.Api\\MedicosMovil.Api.csproj",
+              "RelativeToolTip": "MedicosMovil.Api\\MedicosMovil.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-01T22:40:33.247Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
